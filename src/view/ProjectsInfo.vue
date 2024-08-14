@@ -18,6 +18,7 @@
                   <p class="project-role">参与者</p>
                   <p class="project-description"><strong>项目介绍：</strong>针对 KDD Cup 中的购物知识推理赛道微调大模型，以提升购物知识的推理能力。</p>
                   <p class="project-responsibilities"><strong>我的职责：</strong>负责扩充数据集，参与 lora 微调（包括概念理解，函数编写和参数微调），参与思维链尝试以及 prompt 微调。</p>
+                  <p class="project-responsibilities"><strong>项目开源地址：</strong><el-link href="https://github.com/lshAlgorithm/KDD" style="color: blueviolet;" target="_blank">https://github.com/lshAlgorithm/KDD</el-link></p>
                 </div>
               </div>
             </div>

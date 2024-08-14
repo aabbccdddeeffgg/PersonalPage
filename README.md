@@ -14,11 +14,13 @@ yarn serve
 ```
 yarn build
 ```
+### Push to branch gh-pages
+```
+yarn deploy
+```
 
 ### Lints and fixes files
 ```
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

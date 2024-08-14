@@ -16,6 +16,7 @@
             </div>
           </transition>
         </div>
+        <img style="width: 350px; height: 450px" src="../assets/intern.png"/>
       </div>
     </el-card>
   </template>

@@ -24,22 +24,22 @@ const router = useRouter()
 const handleSelect = (index) => {
   switch(index) {
     case '1':
-      router.push(`/`);
+      router.push(`/PersonalPage`);
       break;
     case '2':
-      router.push(`/education`);
+      router.push(`/PersonalPage/education`);
       break;
     case '3':
-      router.push(`/projects`);
+      router.push(`/PersonalPage/projects`);
       break;
     case '4':
-      router.push(`/internships`);
+      router.push(`/PersonalPage/internships`);
       break;
     case '5':
-      router.push(`/skills`);
+      router.push(`/PersonalPage/skills`);
       break;
     case '6':
-      router.push(`/certificates`);
+      router.push(`/PersonalPage/certificates`);
       break;
     default: 
       break;
