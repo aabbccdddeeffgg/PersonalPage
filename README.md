@@ -24,7 +24,5 @@ yarn deploy
 yarn lint
 ```
 
-### URL
-```
-https://aabbccdddeeffgg.github.io/PersonalPage/
-```
+URL
+### https://aabbccdddeeffgg.github.io/PersonalPage/
