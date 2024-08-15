@@ -10,6 +10,7 @@
       <el-menu-item index="4">实习经验</el-menu-item>
       <el-menu-item index="5">技能特长</el-menu-item>
       <el-menu-item index="6">荣誉证书</el-menu-item>
+      <el-menu-item index="7"><el-link href="https://github.com/aabbccdddeeffgg/PersonalPage.git" target="blank" style="color: burlywood; font-size: 0.98rem; line-height: 1.4rem">Project Link</el-link></el-menu-item>
     </el-menu>
   </div>
 </template>
@@ -40,6 +41,9 @@ const handleSelect = (index) => {
       break;
     case '6':
       router.push(`/PersonalPage/certificates`);
+      break;
+    case '7':
+      window.location.href = 'https://github.com/aabbccdddeeffgg/PersonalPage.git';
       break;
     default: 
       break;
@@ -79,5 +83,17 @@ const handleSelect = (index) => {
 .sidebar-menu .el-menu-item.is-active {
   background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
+}
+
+.github-link {
+  color: blueviolet; /* 文字颜色 */
+  font-size: 1.03rem; /* 字体大小 */
+  line-height: 1.5rem; /* 行高 */
+  text-decoration: none; /* 移除下划线 */
+  padding: 0 10px; /* 内边距 */
+}
+
+.github-link:hover {
+  text-decoration: underline; /* 鼠标悬浮时添加下划线 */
 }
 </style>
