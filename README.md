@@ -1,6 +1,5 @@
 # my_personal_page
-这是王彦琪的个人主页
-使用 Vue3 + Element Plus + TailWindCSS 实现
+这是王彦琪的个人主页，使用 Vue3 + Element Plus + TailWindCSS 实现
 ## Project setup
 ```
 yarn install
